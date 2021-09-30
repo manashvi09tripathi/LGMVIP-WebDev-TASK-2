@@ -1,0 +1,39 @@
+.nav {
+  background-color: burlywood;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 10;
+}
+.nav-heading h1 {
+  color: brown;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+.user-btn {
+  margin-top: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.user-btn button {
+  border-radius: 40px;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: centre;
+  padding: 14px 48px;
+  font-size: 20px;
+  background-color: chocolate;
+}
+
+.user-btn:hover button {
+  background-color: rgba(228, 78, 24, 0.89);
+}

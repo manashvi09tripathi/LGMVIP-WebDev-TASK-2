@@ -1,0 +1,13 @@
+.HomeSection{
+    padding:7.5rem 25rem;
+
+}
+
+.HomeContent{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    
+
+
+}

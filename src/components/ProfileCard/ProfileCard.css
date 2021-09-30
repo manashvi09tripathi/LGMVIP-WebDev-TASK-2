@@ -1,0 +1,37 @@
+.ProfileCard-Container {
+  margin: 2rem;
+  min-width: 27.5rem;
+  background-color: #6a041d;
+  height: 33rem;
+  border-radius: 10px;
+  display: flex;
+  padding: 7rem 2rem;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1rem 2rem rgba(20, 20, 20, 0.5);
+}
+
+.ProfileCard-Img {
+  border-radius: 50px;
+  width: 12rem;
+  overflow: hidden;
+  height: 13rem;
+}
+
+.ProfileCard-Img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.ProfileCard-Container h1 {
+  color: #eae6e5;
+  font-size: 2.5rem;
+  margin: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.ProfileCard-Container p {
+  color: #c52184;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
